@@ -8,6 +8,8 @@
   * [Macaque R24 to BIU for annotation](./documentation/Macaque_R24_to_biu/index)
   * [Merging Metadata](./documentation/Merging_Metadata/index)
   * [Annotation pipeline to MADC](./documentation/annotation_pipeline_to_madc/index)
+  * [MADC API](./documentation/madc_api/index.md)
+
 
 
 * [Files Structure](./file_structure/index)
