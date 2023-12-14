@@ -38,6 +38,7 @@ Initially, mADC is intended for local development environments. Post-development
 ### File Structure
 
 The file structure includes designated directories for logs and studies, with paths specified in `madc.conf`.
+![secrets structure](../../images/madc_structure.jpg)
 
 ## API Restriction
 
