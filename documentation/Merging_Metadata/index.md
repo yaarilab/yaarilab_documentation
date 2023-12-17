@@ -1,8 +1,10 @@
-# Overview of Python Script for Data Management
+# Overview of Python Script for Merging Metadata
+
+This script is automatically invoked as part of starting the [MADC](../../documentation/annotation_pipeline_to_madc/index.md). 
 
 ## Purpose
 
-The provided Python script is designed for efficient data management in a server environment. Its primary functions are to:
+The provided Python script is designed for merging metadata and moving projects files into the madc server environment. Its primary functions are to:
 
 1. **Copy TSV Files:** Transfer TSV files from a server to a minimal ADC file system.
 2. **Merge Metadata:** Integrate the original metadata with additional metadata from annotations and pre-processed data, if available.

@@ -40,7 +40,15 @@ Notifications and summary tables are sent to the `#r24_macaque_samples` Slack ch
 
 ### Creating the Secrets File
 - **Structure**: Populate `secrets.json` with APP_KEY, APP_SECRET, REFRESH_TOKEN, and Slack Webhook URL.
-- **Image Reference**: ![secrets structure](../../images/secrets.json.jpg)
+- **secrect.json structure:**
+```json
+{
+  "WEBHOOK_URL": "",
+  "REFRESH_TOKEN": "",
+  "APP_KEY": "",
+  "APP_SECRET": ""
+}
+```
 - **Token Generation**: Use `generate_refresh_token()` function to obtain `REFRESH_TOKEN`.
 - **Slack Webhook**: Create this via Workspace settings in Slack.
 
