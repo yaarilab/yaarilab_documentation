@@ -1,3 +1,3 @@
 # File Structure
 
-![secrets structure](../../images/file_structure.jpg)
+![secrets structure](../images/file_structure.jpg)
