@@ -3,6 +3,9 @@
 ## Introduction
 This guide is for set up the "Download Repertoires and Metadata" Python script suite. These scripts automate downloading genomic data and metadata from various online repositories, organizing the data, and converting it into a structured and usable format.
 
+## GitHub
+  [GitHub](https://github.com/yaarilab/yaarilab-genotype_tool-command_line) repository
+  
 ## Overview
 
 The script provides an interactive command-line interface for selecting repositories, specifying download directories, and entering study IDs. It uses Python libraries for asynchronous processing and data management. After downloading, it structures the data and converts JSON formatted data into TSV files.
@@ -19,7 +22,7 @@ The script provides an interactive command-line interface for selecting reposito
 ## Step-by-Step Setup
 
 ### 1. Setting Up download_repertoires_and_metadata.py
-- **Location**: Find the script at `/misc/work/genotype_tool-command_line/` on the BIU server or clone it from the GitHub repository.
+- **Location**: Find the script at `/misc/work/genotype_tool-command_line/` on the BIU server or clone it from the [GitHub](https://github.com/yaarilab/yaarilab-genotype_tool-command_line) repository.
 - **Customization**:
   - **Repository URLs**: Modify `default_repository_df` to change or add repository URLs.
   - **Output Directory**: Change `OUTDIR` to your preferred download location.

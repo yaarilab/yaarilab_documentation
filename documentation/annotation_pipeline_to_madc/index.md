@@ -4,6 +4,9 @@
 Flask-based web application for the Minimal ADC server (mADC), adhering to a subset of the AIRR Data Commons API. This implementation allows interrogation of available repertoires and downloading specified repertoire data.
 This app also scannin the projects over the server before it come up, creating metadata and moving files into the app file system.
 
+## GitHub
+  [GitHub](https://github.com/yaarilab/Minimal_ADC) repository
+
 #### System Requirements
 - Python 3.10
 - Flask 2.3.3
@@ -65,7 +68,7 @@ This app also scannin the projects over the server before it come up, creating m
 #### Utility Functions (utils.py)
 
 *   **before\_server\_loads**: Prepares the server environment.
-*   **merge\_metadata**: Merges metadata from various sources. Read more on [Merging Metadata](../../documentation/Merging_Metadata/index.md)
+*   **merge\_metadata**: Merges metadata from various sources. Read more on [Merging Metadata](./documentation/Merging_Metadata/index.md)
 *   **copy\_folder\_content**: Copies Projects TSV files from the server to the adc and merges metadata.
 *   Additional functions for handling TSV files and metadata.
 

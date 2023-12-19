@@ -3,6 +3,9 @@
 ## Introduction
 This guide provides a comprehensive setup process for the "Pipeline Data Management Scripts with Dropbox API," a system designed to manage file contributions efficiently for macaque research data projects. This system integrates with Dropbox to monitor and manage new file submissions and communicates updates via Slack.
 
+## GitHub
+  [GitHub](https://github.com/yaarilab/Macaque-R24-FolderMonitoring) repository
+
 ## User Perspective
 - **File Verification**: Ensures completeness and correctness of required files for each sample.
 - **Metadata Updates**: Compares new samples against metadata from Emory, highlighting missing data in a spreadsheet.
