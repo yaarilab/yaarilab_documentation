@@ -74,3 +74,42 @@ This app also scannin the projects over the server before it come up, creating m
 #### Business Logic
 - The application scans the studies directory on startup, creating an in-memory map of repertoires to file paths.
 - The file structure is assumed to be static during execution.
+
+### Example Usage of Utility Functions in Minimal ADC Server
+
+#### Scenario: Preparing the Server Environment and Copying Studies
+
+1. **Starting the Server**:
+   - The user starts the Minimal ADC Server by running `app.py`.
+   - During initialization, `before_server_loads(config)` from `utils.py` is automatically called.
+
+2. **Utility Function Interaction**:
+   - `before_server_loads(config)` checks if the `log` and `studies` directories exist. If not, it creates them.
+   - The function then copies studies from the `STUDIES_TO_COPY_PATH` to `STUDIES_PATH` as specified in the `config`.
+
+#### Example Terminal Output for Server Initialization
+```
+$ python app.py
+Initializing server...
+Creating 'log' and 'studies' directories...
+Copying studies from '/misc/work/sequence_data_store/' to '/misc/work/minimal_adc/studies'...
+Server initialization complete.
+```
+
+#### Scenario: Extracting Repertoire Details for Metadata Merging
+
+1. **User Action**:
+   - The user needs to make sure that the projects are in the right path and fits the structure.
+
+2. **Utility Functions**:
+   - The function `merge_metadata(project_source, project_dest, tsv_map, pre_processed_map)` is automatically called with appropriate parameters.
+   - The function reads the `project_metadata.json` file, merges annotated and pre-processed metadata, and writes the updated metadata to a new JSON file in the destination project.
+
+#### Example Terminal Output for Metadata Merging
+```
+Merging metadata for project 'Project_XYZ'...
+Reading project metadata from 'Project_XYZ/project_metadata/metadata.json'...
+Merging annotated and pre-processed metadata...
+Writing updated metadata to 'Project_XYZ/destination/metadata.json'...
+Metadata merging complete.
+```

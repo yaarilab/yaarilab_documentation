@@ -85,4 +85,41 @@ Notifications and summary tables are sent to the `#r24_macaque_samples` Slack ch
 
 ---
 
-This guide outlines the setup and operational details of the Pipeline Data Management Scripts with Dropbox API, ensuring a clear understanding for new users to efficiently manage and operate the system.
+### Example Usage of the Macaque R24 to BIU System
+
+#### Scenario: Monitoring and Downloading New Files
+
+1. **Automated Monitoring**:
+   - The system is scheduled to run automatically at 00.00 US EST every day.
+   - It checks the `/macaque r24/sequencing` folder in Dropbox for new file submissions.
+
+2. **File Download Process**:
+   - Upon detecting new files, the system automatically downloads them to the BIU file system, specifically to the path set in `OUTDIR`.
+
+#### Example Terminal Output for Automated Monitoring and Download
+```
+[00:00 US EST] Starting daily check for new files in /macaque r24/sequencing...
+New files detected: 3
+Initiating download to /misc/work/sequence_data_store/...
+Download complete. Files stored in /misc/work/sequence_data_store/.
+```
+
+#### Scenario: Updating Metadata and Reporting to Slack
+
+1. **Metadata Update**:
+   - After downloading, the system consults the metadata from Emory stored in `Macaque R24/subject_metadata/metadata.xlsx`.
+   - It creates a spreadsheet listing missing metadata for new samples and subjects, stored in `Macaque R24/results/missing.xlsx`.
+
+2. **Slack Notification**:
+   - The system sends a daily summary report to the `#r24_macaque_samples` Slack channel.
+   - The report includes the number of samples downloaded, samples missing files, and subjects missing metadata.
+
+#### Example Slack Notification
+![secrets structure](../../images/slack_message.jpg)
+
+#### Notes for Users
+- The system is designed to run automatically, but users should verify the setup, including the Dropbox folder path and Slack channel configuration.
+- Regularly check the `missing.xlsx` file for updates on missing metadata and take necessary actions.
+- Stay informed about the daily reports on the Slack channel for any immediate attention required.
+
+This example provides a clear illustration of how the "Macaque R24 to BIU" system operates, demonstrating typical use cases like automated file monitoring, downloading, metadata updating, and Slack reporting.

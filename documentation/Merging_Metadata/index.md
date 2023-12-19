@@ -33,4 +33,6 @@ The provided Python script is designed for merging metadata and moving projects 
 - `find_metadata_for_pre_processed(result_path)`, `find_tsv_and_metadata_for_annotated(result_path)`: Locate metadata files for pre-processed and annotated results, respectively.
 - `check_result_fileds(result, folder)`: Validates the presence of all required fields in a result.
 
+For testing the merging metadata part, please go to the [Annotation pipeline to MADC](../../documentation/annotation_pipeline_to_madc/index.md) document.
+
 For more details, see the [utils.py script on GitHub](https://github.com/yaarilab/Minimal_ADC/blob/main/app/utils.py).

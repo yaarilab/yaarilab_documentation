@@ -11,7 +11,8 @@ The script provides an interactive command-line interface for selecting reposito
 ## Script Components Overview
 1. **download_repertoires_and_metadata.py**: Manages downloading of repertoires and metadata.
 2. **create_projects_structure.py**: Organizes downloaded data into a structured directory format.
-- **Image Reference**: ![secrets structure](../../images/project_structure.jpg)
+- **Image Reference**: 
+ **![secrets structure](../../images/project_structure.jpg)**
 
 3. **json_to_tsv.py**: Converts JSON formatted data into TSV files.
 
