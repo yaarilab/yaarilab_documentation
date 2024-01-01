@@ -1,6 +1,6 @@
 # Overview of Python Script for Merging Metadata
 
-This script is automatically invoked as part of starting the [MADC](./documentation/annotation_pipeline_to_madc/index.md). 
+This script is automatically invoked as part of starting the [Annotation pipeline to MADC](./documentation/annotation_pipeline_to_madc/index.md). 
 
 ## GitHub
   [GitHub](https://github.com/yaarilab/Minimal_ADC/blob/main/app/utils.py) repository
