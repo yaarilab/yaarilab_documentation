@@ -4,6 +4,9 @@
 
 This script facilitates the transfer of annotation data to the AIRR-seq directory of a local repository. The primary function is to automate the population of project-specific directories with the required annotation data, metadata, and file structures.
 
+## GitHub
+  [GitHub](https://github.com/yaarilab/Annotation_to_VDJbase) repository
+
 ## Features
 
 - Verification of existing directory structures.
