@@ -9,6 +9,8 @@
   * [Merging Metadata](./documentation/Merging_Metadata/index)
   * [Annotation data to VDJbase](./documentation/annotation_data_to_vdjbase/index)
   * [Annotation pipeline to MADC](./documentation/annotation_pipeline_to_madc/index)
+  * [ENA Download tool](./documentation/ena_download_tool/index)
+  * [Extract sequences from ADC annotations](./documentation/extract_sequences_from_ADC_annotations/index)
   * [Minimal ADC Server](./documentation/minimal_adc_server/index)
   * [MADC API](./documentation/madc_api/index)
   * [Files Structure](./documentation/file_structure/index)
