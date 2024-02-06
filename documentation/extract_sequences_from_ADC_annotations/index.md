@@ -9,15 +9,15 @@ This script is designed to extract sequence data from TSV files located in the A
 
 ## How It Works
 
-### 1. find_all_repertoires(project_name)
+- find_all_repertoires(project_name)
 
 This function searches for all `.tsv` files in the `adc_annotated` directory of a given project. It navigates through the directory structure of the project and accumulates the paths of all found TSV files.
 
-### 2. create_preprocessed_structure(project_name, reperoires_paths)
+- create_preprocessed_structure(project_name, reperoires_paths)
 
 After finding all relevant TSV files, this function creates a `pre_processed` directory within the project's `runs/current` directory. It replicates the subdirectory structure of the source files in the `adc_annotated` directory and calls `extract_zip_file` for each TSV file.
 
-### 3. extract_zip_file(file_path, file_dest_path, file_name)
+- extract_zip_file(file_path, file_dest_path, file_name)
 
 This function opens each TSV file, reads the data using pandas, and writes the sequences and their IDs into a new FASTA file in the created `pre_processed` directory.
 
