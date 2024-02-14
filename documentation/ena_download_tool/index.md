@@ -1,17 +1,17 @@
-# ENA_Downloader
+# ENA Downloader
 
 ## Overview
 
-The `ENA_Downloader` is a Python tool designed to automate the process of downloading sequencing data files from the European Nucleotide Archive (ENA). It fetches FASTQ files associated with a given project ID and organizes them into a specified directory structure
+The `EN Downloader` is a Python tool designed to automate the process of downloading sequencing data files from the European Nucleotide Archive (ENA). It fetches FASTQ files associated with a given project ID and organizes them into a specified directory structure
 
 ## GitHub
   [GitHub](https://github.com/yaarilab/ENA_download_script) repository
 
 ## How It Works
 
-### ENA_Downloader.py
+### ENA Downloader.py
 
-This script contains the `ENA_Downloader` class, which performs the main functionality of the tool.
+This script contains the `ENA Downloader` class, which performs the main functionality of the tool.
 
 #### Class `ENA_Downloader`
 

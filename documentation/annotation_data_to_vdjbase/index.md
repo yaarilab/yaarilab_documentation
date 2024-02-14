@@ -1,4 +1,4 @@
-# AIRR-seq Data Transfer Tool
+# Annotation data to VDJbase
 
 ## Description
 
