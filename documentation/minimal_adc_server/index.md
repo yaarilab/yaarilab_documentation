@@ -23,6 +23,22 @@ This app also scannin the projects over the server before it come up, creating m
    - Navigate to the `app` directory thats containing `app.py`.
    - Run the command `python app.py` to start the Flask server.
 
+
+#### Adding new dataset
+1. **update the configuration file**: locate under `/work/scripts/transfer_madc_data/` called studies_to_copy.json.
+   you should add to the json file the name and the path of the new dataset like that:
+
+```json
+"name": "PRJEB26509_IGK",
+"path": "/work/mADC/studies/PRJEB26509_IGK/",
+```
+2. navigate to `/work/scripts/transfer_madc_data/`
+3. Run the script using the following command:
+
+   ```
+   python transfer_madc_studies.py
+   ```
+
 ---
 
 #### Key Components
