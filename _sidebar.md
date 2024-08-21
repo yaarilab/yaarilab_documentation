@@ -14,6 +14,8 @@
   * [Minimal ADC Server](./documentation/minimal_adc_server/index)
   * [MADC API](./documentation/madc_api/index)
   * [Files Structure](./documentation/file_structure/index)
+  * [Add new page](./documentation/add_new_page/index)
+
 
 * [Contact](./contact/index)
 

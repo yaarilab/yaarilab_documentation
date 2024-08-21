@@ -10,5 +10,6 @@
 - #### [Sequence Data Extraction](./documentation/extract_sequences_from_ADC_annotations/index.md)
 - #### [Minimal ADC Server](./documentation/minimal_adc_server/index.md)
 - #### [Annotation data to VDJbase](./documentation/annotation_data_to_vdjbase/index.md)
+- #### [Add new page](./documentation/add_new_page/index.md)
 
 
